@@ -1,0 +1,25 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+  height: 100vh;width: 100vw;background-color: rgb(49, 36, 51);
+  color:#fff;margin-left: 50px; overflow-x: hidden;
+  
+}
+#TM{
+  font-size: 3em; text-align: center;padding: 1em 0em 0em;
+}
+#search-input{
+  height: 40px; font-size: 20px; background-color: black; margin-right: 15px;
+  width: 25rem; border: transparent;border-radius: 20px; text-align: center;color: #fff; 
+}
+#search-btn{
+   height: 38px; font-size: 20px;background-color: rgb(85, 85, 85);border: transparent;border-radius: 20px; text-align: center;color: #afafafa4; width: 80px;
+}
+
+#title,#description,#due-date,#priority{
+  background-color: black; border: transparent;height: 30px; width: 15rem; color: beige; text-align: center; border-radius: 20px;
+}
+#btn{
+  background-color: rgb(196, 180, 180); border: transparent; color: #361e1e; height: 30px; width:10em; border-radius: 20px; margin-left: 50px; font-size: 15px;
+}

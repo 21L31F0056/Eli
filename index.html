@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="TM">Task Manager</h1><br><br>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search task">
+      <button id="search-btn" type="submit">Search</button>
+    </form>
+  </header><br><br>
+  <main>
+    <section id="dashboard">
+      <h2>Upcoming Tasks :</h2>
+      <ul id="upcoming-tasks"></ul><br><br>
+      <h2>Overdue Tasks :</h2>
+      <ul id="overdue-tasks"></ul><br><br>
+      <h2>Completed Tasks :</h2>
+      <ul id="completed-tasks"></ul>
+    </section><br><br>
+    <section id="task-form">
+      <h2>Add Task :</h2><br>
+      <form id="add-task-form">
+        <input type="hidden" id="task-id" value="">
+        <br>
+        <label for="title">Title:</label>
+        <input type="text" id="title" required><br><br>
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea><br><br>
+        <label for="due-date">Due Date:</label>
+        <input type="date" id="due-date" required><br><br>
+        <label for="priority">Priority:</label>
+        <select id="priority" required>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select><br><br>
+        <button id="btn" type="submit">Save Task</button>
+      </form><br>
+      
+    </section>
+  </main>
+  
+  <script src="app.js"></script>
+</body>
+</html>
