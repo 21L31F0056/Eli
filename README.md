@@ -57,10 +57,10 @@ Open the index.html file in your preferred web browser.
 
 4.Interact with the Application:
 
--Add a task using the "Add Task" form.
--Edit a task by clicking the "Edit" button.
--Delete a task using the "Delete" button.
--Complete a task by clicking the "Complete" button.
+	▣ Add a task using the "Add Task" form.
+ 	▣ Edit a task by clicking the "Edit" button.
+	▣ Delete a task using the "Delete" button.
+	▣ Complete a task by clicking the "Complete" button.
 
 # Assumptions
 The application assumes a single-user environment, and there is no user authentication.
