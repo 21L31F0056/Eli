@@ -47,10 +47,10 @@ This is a simple task management application built with HTML, CSS, and JavaScrip
 # Setup Instructions
 
 1.Clone the Repository:
-git clone https://github.com/your-username/task-management-app.git
+git clone https://github.com/21L31F0056/EliteFit.AI-Test.git
 
 2.Navigate to the Project Directory:
-cd task-management-app
+cd EliteFit.AI-Test
 
 3.Open index.html in a Web Browser:
 Open the index.html file in your preferred web browser.
